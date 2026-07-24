@@ -1,21 +1,46 @@
 aid: cirsium-biosciences
 name: Cirsium Biosciences
-description: 'Cirsium Biosciences is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: biotech-therapeutics. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Cirsium Biosciences is a biotechnology company democratizing gene therapy through
+  transformative manufacturing methods. It develops viral vector production systems that use whole
+  plants as bioreactors, offering a highly scalable, linear scale-out platform for producing
+  recombinant AAV (adeno-associated virus) vectors. The plant-based, controlled-environment
+  agriculture approach targets the industry''s core production bottlenecks - inadequate global
+  capacity, poor scalability, high clinical-grade manufacturing costs, and standardization
+  challenges - claiming up to a 70% reduction in manufacturing lead times. Cirsium is a
+  private, venture-backed therapeutics-manufacturing firm and is tracked in the API Evangelist
+  network as a company profile; it does not currently publish a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/cirsium-biosciences/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cirsiumbio.com/wp-content/uploads/2023/05/Cirsium-Biosciences-Color-Logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
+- phifund-ventures
+- kdt-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Biotech Therapeutics
+- Gene Therapy
+- Biotechnology
+- Manufacturing
+- AAV Vectors
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://cirsiumbio.com/
+- type: PrivacyPolicy
+  url: https://cirsiumbio.com/privacy-policy/
+- type: TermsOfService
+  url: https://cirsiumbio.com/terms-and-conditions/
+- type: Blog
+  url: https://cirsiumbio.com/news/
+- type: Support
+  url: https://cirsiumbio.com/contact/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/74907887/
+- type: DomainSecurity
+  url: security/cirsium-biosciences-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
